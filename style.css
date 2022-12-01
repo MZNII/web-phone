@@ -1,0 +1,289 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+bady{
+  
+}
+nav{
+    background-color: hsl(272, 100%, 49%) ;
+    display:flex;
+    justify-content:space-between ;
+    align-items:center ;
+    height: 10vh;
+    max-width: 1366px;
+    margin: 0 auto;
+    padding: 0 5rem;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 10;
+}
+nav .logo{
+    font-size: 2rem;
+    align-items: center;
+}
+.logo img{
+    width: 100px;
+    float:right;
+    padding: 0 5px;
+}
+nav .logo h4{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+nav .nav-items{
+   
+    display: flex;
+   justify-content: space-between;
+   list-style: none;
+}
+nav  .nav-items  .nav-item{
+    padding: 0 1rem;
+    
+   
+}
+nav .nav-link{
+    text-decoration: none;
+    color: #060408;
+    border-radius:  0 5rem;
+    font-size: 1.4rem;
+
+}
+nav .nav-link:hover{
+    color: rgb(53, 26, 235);
+}
+    /*  HERO SECTION */
+.hero{
+    background-color:#000000;
+}
+.hero .hero-imeg img{ 
+
+transition-duration: 0.5s;
+border-radius: 30px; 
+box-shadow: 0 20px 20px rgba(118, 112, 112, 0.392);
+}
+.hero .hero-imeg img:hover{
+    border-radius: 50px;
+     margin-top: -20px;
+}
+.hero-section{
+    max-width: 1366px;
+    height: 90vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 5rem;
+}
+.hero-section .content{
+    display: flex;
+    flex-direction: column;
+}
+.hero-section h4{
+  
+    color: hsl(272, 100%, 49%);
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+
+}
+.hero-section h1{
+    color: rgb(255, 250, 250);
+    font-size: 1.1rem;
+    margin-bottom:1rem;
+}
+.hero-section p{
+    color: rgb(255, 255, 255);
+    margin-bottom:1rem;
+   
+}
+.hero-section span{
+    color:hsl(272, 100%, 49%) ;
+}
+ .btn{
+    width: 10rem;
+    height: 2rem;
+    margin-top: 3rem;
+    border-radius: 0 5rem;
+    background-color: hsl(272, 100%, 49%);
+    outline: none;
+    border: none;
+    border: 0.75rem 1.5rem;
+}
+.btn:hover{
+    background-color: white;
+    cursor: pointer;
+}
+.btn a{
+    text-decoration: none;
+}
+
+
+/* fatures */
+
+
+.fatures{
+    background-color: #000000;
+    color: aliceblue;
+    max-width: 1366px;
+    margin: 0 auto;
+    padding: 0 5rem;
+    flex-direction: column;
+
+}
+.fatures-section h4{
+    color: hsl(272, 100%, 49%);
+    margin-bottom: 2rem;
+    font-size: 1.6rem;
+}
+
+.fatures-section h4:hover{
+    color: #fff;
+
+}
+
+.qualities{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.qualty{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    color: #000000;
+    padding: 2rem;
+    margin: 1rem;
+    max-width: 17rem;
+    border-radius: 1rem;
+}
+.qualty:hover {
+    border: 2px solid  hsl(272, 100%, 49%);
+
+}
+.qualities .qualty i {
+    font-size: 2rem;
+    color: hsl(272, 100%, 49%);
+}
+.qualities .qualty h3{
+   font-size: 1.6rem; 
+   margin: 1rem;
+   padding-bottom: 1rem;
+
+}
+.qualities .qualty p{
+    color:  hsl(272, 100%, 49%);
+    font-size: 1rem;
+    text-align: center;
+}
+ /* phones */
+
+ .newest-phone{
+    padding-top: 5rem; 
+    background-color: #000000;
+
+ }
+
+ .phones{
+  max-width: 1366px ;
+  margin: 0 auto;
+  padding: 0 5rem;
+  display: flex;
+  flex-direction: column;
+ 
+}
+.phones h4{
+    color:hsl(272, 100%, 49%) ;
+    font-size :1.6rem;
+    padding-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+}
+.phones h4:hover{
+    font-size: 1.7rem;
+    color: #fff; 
+}
+
+.phones .phone{
+display: grid;
+grid-template-columns: 1fr  1fr 1fr;
+justify-content: flex-start;
+
+}
+.new_phone{
+ margin: 2rem  0;
+ max-width: 300px;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ 
+}
+
+  .phone .new_phone img{
+    margin-bottom: 5rem;
+    border-radius: 20px;
+    transition-duration: 0 .5s;
+    box-shadow: 20px 20px 20px rgb(75, 73, 73);
+}
+
+.phone .new_phone img:hover{
+    box-shadow:  0  0  0  rgb(75, 73, 73);
+    margin-top: -20px;
+}
+  .new_phone  h3:hover {
+    scale: 1.1;
+    color: aqua;
+}
+
+.new_phone h3{
+    color: #fff;
+}
+
+.phones button {
+    margin: 5rem;
+    margin-bottom: 1rem;
+    align-self: center;
+}
+
+/*  footer  */
+
+.footer_section{
+   
+    background-color: #070707; 
+    display: flex;
+   flex-direction: column; 
+}
+
+.footer_section p{
+    color:hsl(272, 100%, 49%) ;
+    font-size :1.3rem;
+   display: flex;
+    justify-content: center;  
+}
+.socials{
+    display: flex;
+    justify-content: center; 
+    margin-bottom: 20px;
+    color:hsl(272, 100%, 49%);
+    padding-top: 5px;
+}
+.socials:hover {
+    color: #fff;
+}
+/* 
+ @media(max-width:1300px){
+    *{
+        font-size: 85%;
+    }
+ }
+
+ @media(max-width:1170px){
+    *{
+        font-size: 75%;
+    }
+ } */
+
+
+

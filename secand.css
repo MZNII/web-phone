@@ -1,0 +1,101 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+ body{
+    background-color:black;
+    height: 100vh;
+    font-size: system-ui;
+ 
+ }
+
+nav{
+   background-color: rgb(255, 255, 255);  
+   display: flex;
+   justify-content: center;
+}
+.logo  img{
+  
+    width: 15rem;
+    height: 15rem;
+    outline: none;
+    border: none;
+    border-radius: 0 6rem;
+}
+.bodyes{
+    background-color:rgb(255, 255, 255);  
+}
+.bodyes .buto{
+    width: 10rem;
+    height: 2rem;
+    margin-top: 3rem;
+    border-radius: 0 5rem;
+    background-color: hsl(272, 100%, 49%);
+    outline: none;
+    border: none;
+ 
+   
+
+}
+.bodyes .buto:hover{
+    background-color: hsl(276, 11%, 91%);
+}
+.buto h4{
+    border: 10px;;
+    color: rgb(255, 255, 255);
+}
+.buto h4:hover{
+    color: black;
+}
+.phone{
+   display: flex;
+   justify-content: space-evenly;
+   padding-top: 4rem;
+   background-color: rgb(255, 255, 255);
+  
+}
+
+.bodyes .phone h3{
+   margin-left: 5rem;
+   color: rgb(56, 34, 145);
+}
+ .phone .boo{
+    background-color: hsl(272, 100%, 49%);
+    width: 10rem;
+    height: 2rem;
+    border-radius: 0 5rem; 
+}
+.boo:hover{
+    color: black;
+    background-color: aliceblue;
+ 
+}
+
+/*  footer  */
+
+.footer_section{
+   
+    background-color: aliceblue;
+    display: flex;
+   flex-direction: column; 
+}
+
+.footer_section p{
+    color:hsl(272, 100%, 49%) ;
+    font-size :1.3rem;
+   display: flex;
+    justify-content: center;  
+}
+.socials{
+    display: flex;
+    justify-content: center; 
+    margin-bottom: 20px;
+    color:rgb(247, 247, 247);
+    background-color: black;
+    padding-top: 5px;
+}
+.socials:hover {
+    color: #fff;
+}
